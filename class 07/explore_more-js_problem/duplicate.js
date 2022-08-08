@@ -13,4 +13,4 @@ function removeDuplicate(names){
 }
 
 const uniqueNames = removeDuplicate(names);
-console.log(uniqueNames);
+console.log(uniqueNames); 
