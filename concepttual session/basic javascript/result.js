@@ -1,4 +1,4 @@
-var result = "89";
+var result = "101";
 
 if (result < 33 && result > 0) {
     console.log( "Your Mark :", result," You Are Failed Your Exam")
@@ -15,8 +15,11 @@ else if (result >= 50 && result < 60){
 else if (result >= 60 && result < 79){
     console.log( "Your Mark :", result," Your Grade is : A");
 }
-else if (result >= 80 && result < 100){
+else if (result >= 80 && result < 99){
     console.log( "Your Mark :", result," Your Grade is:  A+");
+}
+else if (result >= 99 && result < 100){
+    console.log( "Your Mark :", result," Your Grade is: Golden A+");
 }
 else{
     console.log("Result Not Found Try Again")
